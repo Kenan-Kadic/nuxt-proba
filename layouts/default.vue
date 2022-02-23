@@ -26,6 +26,16 @@ export default {
           title: 'About',
           to: '/about'
         },
+        {
+          icon: 'mdi-apps',
+          title: 'Text',
+          to: '/text'
+        },
+        {
+          icon: 'mdi-apps',
+          title: 'buttons',
+          to: '/buttons'
+        },
       ],
       miniVariant: false,
       right: true,

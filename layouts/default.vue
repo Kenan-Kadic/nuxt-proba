@@ -1,9 +1,8 @@
 <template>
-  <v-app>
-
+  <v-app >
+    <v-main class="grey lighten-4">
         <Nuxt />
-
-
+    </v-main>
   </v-app>
 </template>
 
@@ -35,6 +34,11 @@ export default {
           icon: 'mdi-apps',
           title: 'Buttons',
           to: '/buttons'
+        },
+                {
+          icon: 'mdi-apps',
+          title: 'Home',
+          to: '/home'
         },
                 {
           icon: 'mdi-apps',

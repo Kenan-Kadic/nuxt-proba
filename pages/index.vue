@@ -1,18 +1,16 @@
 <template>
   <v-container>
-    <v-toolbar app class="red"></v-toolbar>
-<!--  <v-row justify="center" align="center">-->
-<!--    <v-col cols="12" sm="8" md="6">-->
-
-<!--      <v-card>-->
-<!--      </v-card>-->
-<!--    </v-col>-->
-<!--  </v-row>-->
+    <div class="home">
+      <h1>Homepage</h1>
+      <p class="red white--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam commodi consectetur consequatur cupiditate, dolorum, et in libero maxime mollitia provident quidem quis quos repellendus sit tenetur ullam unde voluptatibus!</p>
+      <p class="pink lighten-4 red--text--darken-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi deserunt iste laborum molestias odit quia sed similique. Aliquam consequuntur, cumque harum in incidunt nemo obcaecati quo recusandae similique vitae, voluptates!</p>
+      <h1 class="display-4">Massive Display</h1>
+      <h2 class="display-1">Smaller Display</h2>
+      </div>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
 }
 </script>

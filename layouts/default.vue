@@ -1,9 +1,8 @@
 <template>
-  <v-app dark>
+  <v-app>
 
-      <v-main>
         <Nuxt />
-      </v-main>
+
 
   </v-app>
 </template>
@@ -21,6 +20,11 @@ export default {
           icon: 'mdi-apps',
           title: 'Welcome',
           to: '/'
+        },
+                {
+          icon: 'mdi-apps',
+          title: 'About',
+          to: '/about'
         },
       ],
       miniVariant: false,

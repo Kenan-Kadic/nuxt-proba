@@ -1,13 +1,17 @@
 <template>
-  <v-app >
+  <v-app>
     <v-main class="grey lighten-4">
+        <Navbar></Navbar>
         <Nuxt />
     </v-main>
   </v-app>
 </template>
 
 <script>
+import Navbar from "~/components/Navbar";
+
 export default {
+    components: {Navbar},
   name: 'DefaultLayout',
   data () {
     return {

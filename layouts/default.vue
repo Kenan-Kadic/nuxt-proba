@@ -2,7 +2,7 @@
   <v-app>
     <v-main class="grey lighten-4">
         <Navbar></Navbar>
-        <Nuxt />
+        <Nuxt class="mx-4 mb-4" />
     </v-main>
   </v-app>
 </template>

@@ -33,8 +33,13 @@ export default {
         },
         {
           icon: 'mdi-apps',
-          title: 'buttons',
+          title: 'Buttons',
           to: '/buttons'
+        },
+                {
+          icon: 'mdi-apps',
+          title: 'Visibility',
+          to: '/visibility'
         },
       ],
       miniVariant: false,

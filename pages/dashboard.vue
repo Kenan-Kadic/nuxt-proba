@@ -3,8 +3,31 @@
   <h2 class="subheading grey--text">Dashboard</h2>
 
       <v-container class="my-5">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugiat quidem sint. Atque corporis error eum eveniet illo iure mollitia perferendis quibusdam, quo, quod, repellat vero? Assumenda maiores obcaecati possimus.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem doloribus eaque earum error expedita, facere fugiat illo, iusto laboriosam laborum molestiae porro praesentium quae quia quidem quisquam suscipit vero.</p>
+
+      <v-layout row>
+        <v-flex xs12 md6>
+        <v-btn outline block class="primary">1</v-btn>
+        </v-flex >
+        <v-flex xs4 md2>
+        <v-btn outline block class="primary">2</v-btn>
+        </v-flex >
+        <v-flex xs4 md2>
+        <v-btn outline block class="primary">3</v-btn>
+        </v-flex >
+        <v-flex xs4 md2>
+        <v-btn outline block class="primary">4</v-btn>
+        </v-flex >
+      </v-layout>
+
+      <v-layout row wrap justify-space-between>
+        <v-flex xs4 md3>
+        <v-btn outline block class="error">1</v-btn>
+        </v-flex>
+        <v-flex xs4 md3>
+        <v-btn outline block class="error">2</v-btn>
+        </v-flex>
+      </v-layout>
+
       </v-container>
 </div>
 </template>
